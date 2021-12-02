@@ -2,7 +2,7 @@
 
 [*] When I scroll down I want to see timeblocks for standard business hours 9am-5pm
 
-[] When I look at the timeblocks for the day each timeblock is color coded to indictae whther it is past, present or future.
+[] When I look at the timeblocks for the day each timeblock is color coded to indicate whether it is past, present or future.
 {grey = events have already happened}
 {red = current hour}
 {green = future events (new)}
@@ -13,4 +13,3 @@
 
 [] When the page is refreshed the saved events should still show
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
