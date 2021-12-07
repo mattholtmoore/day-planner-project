@@ -1,6 +1,6 @@
 // DISPLAYS THE DAY, DATE, AND CURRENT TIME IN HEADER
 $(document).ready(function () {
-  $("#currentDay").text(moment().format("LL"));
+  $("#currentDay").text(moment().format("LLLL"));
   // UPDATE & LOAD SAVED DATA IN LOCAL STORAGE
   $(".time-block").each(function () {
     var timeEl = $(this).attr("id");
@@ -13,8 +13,7 @@ $(document).ready(function () {
 
   function colors() {
     $(".time-block").each(function () {
-      // var thisHour = moment().hours()
-      var thisHour = 13
+      var thisHour = moment().hours()
       console.log(thisHour)
 
       var timeBlock = parseInt($(this).attr("id").replace("hour-", " "));
