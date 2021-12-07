@@ -21,7 +21,7 @@ When the planner is opened the current day is displayed at the top of the calend
 ***
 
 ## Visuals
-![day-planner](*insert images* "day-planner")
+![day-planner](assets/images/day-planner.png "day-planner")
 
 
  
